@@ -1,0 +1,27 @@
+{
+    "name": "zhouweixing/helper",
+    "description": "常用的一些帮助函数",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouweixing",
+            "email": "17736230247@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "8.5.x-dev",
+        "mockery/mockery": "1.3.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zwx\\Helper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zwx\\Helper\\Tests\\": "tests/"
+        }
+    }
+}
